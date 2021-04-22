@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TML.ModLoaderHooks", "TML.ModLoaderHooks.csproj", "{39CDC76B-B387-4257-B2F6-BE51D71739FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39CDC76B-B387-4257-B2F6-BE51D71739FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CDC76B-B387-4257-B2F6-BE51D71739FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CDC76B-B387-4257-B2F6-BE51D71739FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CDC76B-B387-4257-B2F6-BE51D71739FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F07942CA-3C42-49E3-9980-8278B44B9F90}
+	EndGlobalSection
+EndGlobal

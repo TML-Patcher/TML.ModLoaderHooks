@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.0.0</Version>
+    <Authors>convicted tomatophile (Stevie)</Authors>
+    <Company>TML-Patcher</Company>
+    <Description>Program that generates a DLL containing IL and On events for specifically Terraria.ModLoader classes.</Description>
+    <Copyright>MIT License 2021 Stevie</Copyright>
+    <PackageProjectUrl>https://www.github.com/TML-Patcher/TML.ModLoaderHooks</PackageProjectUrl>
+    <RepositoryUrl>https://www.github.com/TML-Patcher/TML.ModLoaderHooks</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoMod.RuntimeDetour.HookGen" Version="21.4.21.3" />
+  </ItemGroup>
+
+</Project>
