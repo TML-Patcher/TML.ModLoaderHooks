@@ -70,7 +70,7 @@ try
     }
 
     Console.WriteLine();
-    WriteAndExit($" Generated out-put DLL at {outputPath}!", ConsoleColor.Green);
+    WriteAndExit($" Generated output DLL at {outputPath}!", ConsoleColor.Green);
 }
 catch (Exception e)
 {
